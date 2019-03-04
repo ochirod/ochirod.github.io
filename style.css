@@ -1,0 +1,23 @@
+#game {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background: orangered;
+    margin: 50px auto;
+}
+
+.block {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+/*    float: left;*/
+    border: 1px solid black;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.space {
+    cursor: pointer;
+}
