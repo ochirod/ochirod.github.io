@@ -4,7 +4,7 @@
 // добавь нормально расположение кнопок: Начать игру, рестарт
 // ввод размерности поля
 
-var N = 6;
+var N = 3;
 
 function setValue(){
     N = document.getElementById("value").value;
